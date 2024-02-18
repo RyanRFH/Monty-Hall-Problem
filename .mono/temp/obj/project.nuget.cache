@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1mhsGb3Hs8pTL6FaUPUuKf+tPkHaDExngTSmx7UuTq+/8xBPaXQ5iS7PdM0KesoFWVwmKfgGlCAbfhUXIiM8EA==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Games Dev\\Monty-Hall-Problem\\Monty-Hall-Problem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RyanP\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\RyanP\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,60 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Assets/monster-door-closed.png" type="Texture" id=1]
+[ext_resource path="res://Assets/monster-door-open-wrong.png" type="Texture" id=2]
+[ext_resource path="res://Scenes/Sprites/Door.cs" type="Script" id=3]
+[ext_resource path="res://Assets/open-doors-114615.mp3" type="AudioStream" id=4]
+[ext_resource path="res://Assets/monster-door-closed-selected2.png" type="Texture" id=5]
+[ext_resource path="res://Assets/monster-door-open-correct.png" type="Texture" id=6]
+[ext_resource path="res://Assets/monster-attack.wav" type="AudioStream" id=7]
+[ext_resource path="res://Assets/mixkit-coin-win-notification-1992.wav" type="AudioStream" id=8]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ) ],
+"loop": true,
+"name": "Closed",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ) ],
+"loop": true,
+"name": "ClosedSelected",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ) ],
+"loop": true,
+"name": "OpenCorrect",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "OpenWrong",
+"speed": 5.0
+} ]
+
+[node name="DoorNode" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="DoorSprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 2.396, 3.053 )
+frames = SubResource( 1 )
+animation = "Closed"
+centered = false
+
+[node name="DoorButton" type="TextureButton" parent="."]
+margin_right = 316.0
+margin_bottom = 313.0
+
+[node name="DoorSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 4 )
+volume_db = -30.0
+
+[node name="MonsterSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 7 )
+volume_db = -30.0
+
+[node name="WinSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 8 )
+volume_db = -30.0
+
+[connection signal="pressed" from="DoorButton" to="." method="OnDoorButtonPressed"]

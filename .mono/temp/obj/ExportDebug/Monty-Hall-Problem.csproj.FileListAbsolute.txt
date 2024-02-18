@@ -1,0 +1,9 @@
+D:\Projects\Games Dev\Monty-Hall-Problem\.mono\temp\bin\ExportDebug\Monty-Hall-Problem.dll
+D:\Projects\Games Dev\Monty-Hall-Problem\.mono\temp\bin\ExportDebug\Monty-Hall-Problem.pdb
+D:\Projects\Games Dev\Monty-Hall-Problem\.mono\temp\obj\ExportDebug\Monty-Hall-Problem.csproj.AssemblyReference.cache
+D:\Projects\Games Dev\Monty-Hall-Problem\.mono\temp\obj\ExportDebug\Monty-Hall-Problem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Games Dev\Monty-Hall-Problem\.mono\temp\obj\ExportDebug\Monty-Hall-Problem.AssemblyInfoInputs.cache
+D:\Projects\Games Dev\Monty-Hall-Problem\.mono\temp\obj\ExportDebug\Monty-Hall-Problem.AssemblyInfo.cs
+D:\Projects\Games Dev\Monty-Hall-Problem\.mono\temp\obj\ExportDebug\Monty-Hall-Problem.csproj.CoreCompileInputs.cache
+D:\Projects\Games Dev\Monty-Hall-Problem\.mono\temp\obj\ExportDebug\Monty-Hall-Problem.dll
+D:\Projects\Games Dev\Monty-Hall-Problem\.mono\temp\obj\ExportDebug\Monty-Hall-Problem.pdb
